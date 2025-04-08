@@ -1,0 +1,14 @@
+@startuml
+title UML-діаграма прецедентів
+
+left to right direction
+
+actor User
+actor Manager
+
+User --> (Login)
+User --> (View Dashboard)
+Manager --> (Manage Users)
+Manager --> (Manage Reports)
+
+@enduml
