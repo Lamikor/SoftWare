@@ -1,0 +1,32 @@
+@startuml
+skinparam classAttributeIconSize 0
+title UML-діаграма концептуальних класів
+
+' Оголошення класів із псевдонімами для надійності
+class "Користувач" as User {
+  - Ім_я : String
+}
+
+class "Співробітник" as Emp {
+  - Прізвище : String
+  - Посада : String
+}
+
+class "Меню" as Menu {
+  - Дата : Date
+  - НаціональнаКухня : String
+}
+
+class "СписокБлюд" as DishList {
+  - Опис : String
+}
+
+' Приклад узагальнення (спадкування)
+User <|-- Emp
+
+' Асоціація з кратністю (one-to-many)
+Emp "1" --> "0..*" Menu : обирає
+
+' Агрегація: Меню «містить» список страв
+Menu o-- DishList : містить
+@enduml
