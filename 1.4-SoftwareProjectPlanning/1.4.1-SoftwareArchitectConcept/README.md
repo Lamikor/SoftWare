@@ -26,4 +26,4 @@
 
 Нижче наведено посилання на raw-версію PlantUML-файлу розгортання:
 
-![](//www.plantuml.com/plantuml/png/RP7FIiD04CRl-nH3xy6x1-dHWuBIYkTDiwsBwKOseqL4I2FU116aXrx4DuYsOlpJ-WepR-Hih3s8EOHaln-_-PXjvwWzdWvJXHPJ0mUxEn7DUK8LpRYGzoTL81zBUgKPBRdWKWuNjE1RfV9ZwqwqrqDmMM8wU2u2RtgetI0rAZLz1Cp0sy4HGc93OZEdL82XHLFwu0dVYwhaCT_GEzNq1lH0qnRe77gfDGxXGe4yqj7sTG-XTMZYY9v2DRwIJYzSD7Jiir5klBfSwnz3HizhGj8pu__ryVWFEpBn3zx0YKOTwpn8xwYIeHNGlDb2pTSDdyHXyAfn56tz3jk4xMvtRwEZLlyI2Il7dNrPiuZeInmbrQfjN2Aty0q0)
+![](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Lamikor/SoftWare/refs/heads/Laboratory_work_2/1.4-SoftwareProjectPlanning/1.4.1-SoftwareArchitectConcept/Deployment.puml?token=GHSAT0AAAAAADBB6UHYW7UKU446HYW35MNWZ7VKVEA)
