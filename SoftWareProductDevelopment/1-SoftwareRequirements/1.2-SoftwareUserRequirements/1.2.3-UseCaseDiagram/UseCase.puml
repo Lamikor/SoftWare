@@ -1,14 +1,18 @@
 @startuml
-title UML-діаграма прецедентів
-
-left to right direction
-
+' Визначення акторів
 actor User
-actor Manager
+actor ExternalAPI
 
-User --> (Login)
-User --> (View Dashboard)
-Manager --> (Manage Users)
-Manager --> (Manage Reports)
+' Визначення меж системи та варіантів використання
+rectangle "Environmental Data System" {
+    usecase "Отримання даних про вологість" as UC1
+    usecase "Творчий режим" as UC2
+    usecase "Сповіщення про небезпеку" as UC4
+}
 
+' Визначення зв’язків між акторами та варіантами використання
+User --> UC1 : User initiates Obtaining humidity data
+ExternalAPI --> UC1 : Provides humidity data
+
+' Кінець діаграми
 @enduml
