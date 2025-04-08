@@ -1,0 +1,25 @@
+@startuml
+title UML-діаграма програмних класів з прототипами методів
+
+' Опис класу співробітника з прототипами методів
+class Emp {
+    - Прізвище : String
+    - Посада : String
+    + changejob() : void
+    + dismiss() : void
+}
+
+' Додаткові класи предметної області
+class Menu {
+    - Дата : Date
+    - НаціональнаКухня : String
+}
+
+class DishList {
+    - Опис : String
+}
+
+' Зв'язки між класами
+Emp "1" --> "0..*" Menu : обирає
+Menu o-- DishList : містить
+@enduml
