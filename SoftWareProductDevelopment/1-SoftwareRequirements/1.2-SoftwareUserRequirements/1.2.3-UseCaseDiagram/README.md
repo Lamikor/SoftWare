@@ -8,5 +8,4 @@
 # UML‑діаграма прецедентів
 
 Нижче наведено посилання на raw‑версію PlantUML‑файлу:
-
-![](//www.plantuml.com/plantuml/png/SoWkIImgAStDuIh9BCb9LGZrzT6ziENYj0iRBco-s00azrpOe71XFv2vzMBRXQqNjW3ntejDG0MRkBXoKjDA54ho5OeoqpDA558oYrAJIpBpyxYu4fDByeiKGejJYw1CtyIyn7GWZmiafg2hQwUWuPEVdfcdYIGGbfbQhk2IM9oHb9zObAB91TO3auHmm4OMOvSAIYt8Boe1IZgavgK0FGG0)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Lamikor/SoftWare/refs/heads/SW_LabWork_1/SoftWareProductDevelopment/1-SoftwareRequirements/1.2-SoftwareUserRequirements/1.2.3-UseCaseDiagram/UseCase.puml?token=GHSAT0AAAAAADBB6UHYOLNNV4J2V4527MJIZ7VLIPQ)
