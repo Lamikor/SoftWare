@@ -1,0 +1,18 @@
+@startuml
+' Визначення акторів
+actor User
+actor ExternalAPI
+
+' Визначення меж системи та варіантів використання
+rectangle "Environmental Data System" {
+    usecase "Отримання даних про вологість" as UC1
+    usecase "Творчий режим" as UC2
+    usecase "Сповіщення про небезпеку" as UC4
+}
+
+' Визначення зв’язків між акторами та варіантами використання
+User --> UC1 : User initiates Obtaining humidity data
+ExternalAPI --> UC1 : Provides humidity data
+
+' Кінець діаграми
+@enduml
