@@ -1,0 +1,32 @@
+@startuml
+title "UML-діаграма розгортання для ПП RWA-типу (приклад)"
+
+skinparam nodeStyle rectangle
+skinparam shadowing false
+left to right direction
+
+node "Настільний комп'ютер" as pc {
+  node "OC Windows,\nOC Linux" as pcOS {
+    artifact "Web-навігатор\n(Angular, *.js)" as webNavigator
+  }
+  folder "Пристрої введення" as pcDevices {
+    rectangle "клавіатура" as keyboard
+    rectangle "маніпулятор 'миша'" as mouse
+  }
+}
+
+node "Сервер 1" as server1 {
+  node "OC Linux" as srv1OS {
+    artifact "Node.js\n(*.js)" as nodejs
+  }
+}
+
+node "Сервер 2" as server2 {
+  node "OC Linux" as srv2OS {
+    database "MongoDB\n(JSON)" as dbMongo
+  }
+}
+
+pcOS --> srv1OS : HTTP/S
+srv1OS --> srv2OS : API Calls
+@enduml
